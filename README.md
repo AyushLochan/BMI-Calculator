@@ -2,7 +2,7 @@
 
 A simple and responsive **BMI (Body Mass Index) Calculator** built using **HTML**, **CSS**, and **JavaScript**.
 
-> Live Demo : [https://ayushlochan.github.io/BMI-Calculator/]
+> Live Demo : [(https://ayushlochan.github.io/BMI-Calculator/)](https://ayushlochan.github.io/BMI-Calculator/)
 
 ---
 
