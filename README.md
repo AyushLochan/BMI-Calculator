@@ -47,7 +47,8 @@ cd BMI-Calculator
 
 ## 📸 Screenshots
 
-> *(Optional: Include a screenshot of the UI here)*
+![image](https://github.com/user-attachments/assets/9d2403ec-33e3-487f-a241-6919f95b3c2d)
+
 
 ---
 
