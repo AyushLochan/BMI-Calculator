@@ -1,11 +1,11 @@
 function calculateBMI() {
   const weight = parseFloat(document.getElementById('weight').value);
   const height = parseFloat(document.getElementById('height').value);
-
   const result = document.getElementById('result');
 
   if (!weight || !height || weight <= 0 || height <= 0) {
     result.textContent = 'Please enter valid positive values for weight and height.';
+    result.classList.add('show-result');
     return;
   }
 
@@ -14,7 +14,6 @@ function calculateBMI() {
   const roundedBMI = bmi.toFixed(2);
 
   let message = '';
-
   if (bmi < 18.5) {
     message = 'Underweight';
   } else if (bmi < 24.9) {
@@ -26,4 +25,5 @@ function calculateBMI() {
   }
 
   result.textContent = `Your BMI is ${roundedBMI} (${message})`;
+  result.classList.add('show-result');
 }

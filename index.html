@@ -9,12 +9,12 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>BMI Calculator</h1>
-        <input type="number" id="weight" placeholder="Weight (kg)" />
-        <input type="number" id="height" placeholder="Height (cm)" />
-        <button onclick="calculateBMI()">Calculate</button>
-        <div id="result"></div>
+    <div class="container fade-in">
+        <h1 class="slide-down">BMI Calculator</h1>
+        <input type="number" id="weight" placeholder="Weight (kg)" class="slide-left" />
+        <input type="number" id="height" placeholder="Height (cm)" class="slide-right" />
+        <button onclick="calculateBMI()" class="fade-in-button">Calculate</button>
+        <div id="result" class="result-fade"></div>
     </div>
     <script src="script.js"></script>
 </body>
